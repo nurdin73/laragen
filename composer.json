@@ -1,0 +1,23 @@
+{
+    "name": "microthunder/laragen",
+    "description": "generator crud for laravel framework",
+    "autoload": {
+        "psr-4": {
+            "Microthunder\\Laragen\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MicroThunder\\Laragen\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MicroThunder",
+            "email": "nurdin.reverse73@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.23"
+    }
+}
