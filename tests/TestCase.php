@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests;
+namespace Microthunder\Laragen\Tests;
 
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Orchestra\Testbench\Concerns\CreatesApplication;
+use Orchestra\Testbench\TestCase as TestbenchTestCase;
 
-abstract class TestCase extends BaseTestCase
+abstract class TestCase extends TestbenchTestCase
 {
   use CreatesApplication;
 }

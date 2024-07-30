@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace Microthunder\Laragen\Tests\Units;
 
 use PHPUnit\Framework\TestCase;
 

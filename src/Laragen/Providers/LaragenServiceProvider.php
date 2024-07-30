@@ -13,6 +13,8 @@ class LaragenServiceProvider extends ServiceProvider
    */
   public function boot()
   {
-    // 
+    $this->publishes([
+      __DIR__ . '..../resources/config/gen.php' => config_path('gen.php')
+    ]);
   }
 }
